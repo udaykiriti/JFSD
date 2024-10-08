@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JFSD/static/css/main.bf443150.css",
+    "main.js": "/JFSD/static/js/main.4e4e9ed7.js",
+    "static/js/453.5cc25d5f.chunk.js": "/JFSD/static/js/453.5cc25d5f.chunk.js",
+    "index.html": "/JFSD/index.html",
+    "main.bf443150.css.map": "/JFSD/static/css/main.bf443150.css.map",
+    "main.4e4e9ed7.js.map": "/JFSD/static/js/main.4e4e9ed7.js.map",
+    "453.5cc25d5f.chunk.js.map": "/JFSD/static/js/453.5cc25d5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf443150.css",
+    "static/js/main.4e4e9ed7.js"
+  ]
+}
