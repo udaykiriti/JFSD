@@ -1,0 +1,56 @@
+/* Attendance.css */
+.ittendance-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .attendance-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .th{
+    color: white;
+    
+  }
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .attendance-table th, .attendance-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .attendance-table th {
+    background-color: #ff5722;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .attendance-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .attendance-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .attendance-table td {
+    font-size: 1.2em;
+  }
+  
+  /* Extra styles to only show workshop name once */
+  .attendance-table tr td:first-child {
+    text-align: center;
+    font-weight: bold;
+  }
+  

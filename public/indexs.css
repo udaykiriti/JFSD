@@ -1,0 +1,90 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Top Navigation Bar */
+  .top-nav {
+    position: fixed;
+    top: -100px; /* Initially hidden off-screen */
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    background-blend-mode: color-burn;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    transition: top 0.5s ease; /* Slide-down animation */
+    animation: slideDown 1s forwards ease-in-out;
+  }
+  
+  /* List styles */
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  /* Navigation links */
+  .top-nav ul li {
+    margin: 0 15px;
+  }
+  
+  .top-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .top-nav ul li a:hover {
+    background-color: #e64a19;
+    transform: scale(1.05); /* Slight scale-up effect on hover */
+  }
+  
+  /* Slide-down animation */
+  @keyframes slideDown {
+    0% {
+      top: -100px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
+  /* Content area styles */
+  .content {
+    margin-top: 150px; /* Space for top-nav */
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .top-nav ul {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .top-nav ul li {
+      margin: 10px 0;
+    }
+  }
+  

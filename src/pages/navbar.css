@@ -1,0 +1,49 @@
+/* Sidebar styles */
+.sidenav {
+  height: 100%;  /* Full height */
+  width: 300px;  /* Width of the sidebar */
+  position: fixed;  /* Fixed position */
+  z-index: 1;  /* Stay on top */
+  top: 0;  /* Align to the top */
+  left: 0;  /* Align to the left */
+  background-color: #111;
+  background: radial-gradient(circle at top left, #ff5722, #000 100%);
+   /* Circular gradient */
+  overflow-x: hidden;  /* Prevent horizontal scroll */
+  padding-top: 20px;  /* Padding at the top */
+}
+#logout{
+  position: fixed;
+  bottom: 0;
+  
+}
+/* Sidebar links */
+.sidenav a {
+  padding: 10px 16px;  /* Padding for links */
+  text-decoration: none;  /* Remove underline */
+  font-size: 25px;  /* Font size */
+  color: white;  /* Text color */
+  display: block;  /* Display as block */
+  background-color: transparent;  /* Transparent background */
+  transition: color 0.3s ease;  /* Smooth transition for hover effects */
+  box-shadow: none; 
+}
+
+/* Link hover effects */
+.sidenav a:hover {
+  color: black;  /* Change color on hover */
+}
+
+/* Close button styles */
+.sidenav .closebtn {
+  position: absolute;  /* Absolute positioning */
+  top: 20px;  /* Position from the top */
+  right: 25px;  /* Position from the right */
+  font-size: 36px;  /* Font size */
+  color: white;  /* Close button color */
+  cursor: pointer;  /* Pointer cursor on hover */
+}
+
+.sidenav .closebtn:hover {
+  color: #ff5722;  /* Change color on hover */
+}
