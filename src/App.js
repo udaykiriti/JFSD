@@ -28,6 +28,11 @@ function App() {
             <Route path="/workshop/:id" element={<WorkshopDetail />} />
             <Route path="/attendence" element={<Attendence />} />
           </Routes>
+
+
+
+
+  
         </div>
       </div>
     </div>
