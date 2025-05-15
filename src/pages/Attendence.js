@@ -1,4 +1,3 @@
-// Attendance.js
 import React from 'react';
 
 const Attendance = () => {
