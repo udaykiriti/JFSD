@@ -31,7 +31,6 @@ body, html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Paragraph style */
   p {
    color: white; /* Adjust text color for readability */
    font-size: 1.4em;
