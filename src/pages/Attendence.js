@@ -34,7 +34,7 @@ const Attendance = () => {
           {workshops.map((workshop, workshopIndex) =>
             workshop.attendees.map((attendee, attendeeIndex) => (
               <tr key={`${workshopIndex}-${attendeeIndex}`}>
-                <td>{workshopIndex === 0 ? workshop.workshopName : ''}</td> {/* Show workshop name once per group */}
+                <td>{workshopIndex === 0 ? workshop.workshopName : ''}</td>
                 <td>{attendee.studentName}</td>
                 <td>{attendee.status}</td>
               </tr>
