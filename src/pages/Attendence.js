@@ -17,7 +17,6 @@ const Attendance = () => {
         { studentName: 'Chris Lee', status: 'Absent' },
       ],
     },
-    // Add more workshops and attendees as needed
   ];
 
   return (
