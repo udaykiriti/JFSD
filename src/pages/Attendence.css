@@ -47,7 +47,6 @@
     font-size: 1.2em;
   }
   
-  /* Extra styles to only show workshop name once */
   .attendance-table tr td:first-child {
     text-align: center;
     font-weight: bold;
